@@ -11,9 +11,9 @@ int main()
 	{
 		if(cadena[i]==cadena2)
 		{
-			cadena[i]=cadena2;
+		if(subcadena[i]=='\0')
 			
-			printf("existe\n");
+			printf("existe\n")//if(subcadena[i]=='\0')
 		}
         else
 		{
